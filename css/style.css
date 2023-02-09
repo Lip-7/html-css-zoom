@@ -28,6 +28,9 @@
 .flow-col{
     flex-flow: column;
 }
+.green{
+    color: #4BC800;
+}
 /* body */
 body{
     background-color: black;
@@ -99,4 +102,14 @@ footer .btn-pad{
 }
 .option{
     margin-top: 2px;
+}
+.exits span{
+    background-color: var(--bg-footer);
+    padding:10px 20px;
+    line-height: 53px;
+    color: red;
+}
+#exits{
+    padding: 0px;
+    height: 75px;
 }
