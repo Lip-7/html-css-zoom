@@ -31,6 +31,9 @@
 .green{
     color: #4BC800;
 }
+.pad{
+    padding: 3px;
+}
 /* body */
 body{
     background-color: black;
@@ -45,6 +48,7 @@ body{
     margin-right: 6px;
     line-height: 21px;
     margin-top: 5px;
+    font-size: 0.6vw;
 }
 
 
@@ -76,6 +80,7 @@ main .infos{
     position: absolute;
     bottom: 0px;
     background-color: rgba(50, 50, 50, 0.5);
+    font-size: 1vw;
 }
 /* footer */
 footer{
@@ -86,7 +91,7 @@ footer{
     width: 100%;
 }
 .footer-wrap .icon{
-    font-size: 2rem;
+    font-size: 1.5vw;
 }
 .footer-wrap{
     color: white;
@@ -102,6 +107,7 @@ footer .btn-pad{
 }
 .option{
     margin-top: 2px;
+    font-size: 0.8vw;
 }
 .exits span{
     background-color: var(--bg-footer);
