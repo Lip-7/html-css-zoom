@@ -19,13 +19,17 @@
 .f-flow{
     flex-flow: row wrap;
 }
+.j-bet{
+    justify-content: space-between;
+}
 
 /* body */
 body{
     background-color: black;
 }
 /* header */
-.head.options>i,span{
+
+.content{
     color: white;
     padding: 2px 5px 2px 5px;
     background-color: var(--bg-footer);
@@ -34,7 +38,12 @@ body{
     line-height: 21px;
     margin-top: 5px;
 }
+
+
 /* main */
+/* main{
+    height: calc(100vh - (/* footer + header */ /* 32px + 80px + ( *//* margins *//*  40px))); */
+/* } */
 main .container{
     max-width: 90vw;
     margin: 0 auto;
@@ -43,11 +52,34 @@ main .container{
 
 .person.wrapper img{
     width: 100%;
+    display: block;
 }
 .person.wrapper{
     margin: 5px 5px;
     width: calc((100% / 7) - 10px);
+    position: relative;
 }
-footer{
+
+main .infos{
+    color: white;
     background-color: var(--bg-footer);
+    width: fit-content;
+    padding: 2px 5px 2px 5px;
+    position: absolute;
+    bottom: 0px;
+    background-color: rgba(50, 50, 50, 0.5);
+}
+/* footer */
+footer{
+    background-color: #222222;
+    position: absolute;
+    bottom: 0px;
+    height: 70px;
+    width: 100%;
+}
+.footer-wrap .icon{
+    font-size: 2.3rem;
+}
+.footer-wrap{
+    line-height: 70px;
 }
