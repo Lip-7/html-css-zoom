@@ -19,6 +19,9 @@
 .al-cent{
     align-items: center;
 }
+.al-start{
+    align-items: flex-start;
+}
 .f-flow{
     flex-flow: row wrap;
 }
@@ -87,7 +90,7 @@ footer{
     background-color: #222222;
     position: absolute;
     bottom: 0px;
-    height: 75px;
+    height: 3.7vw;
     width: 100%;
 }
 .footer-wrap .icon{
